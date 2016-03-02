@@ -3,7 +3,7 @@ TODO:
 - load file in a separate thread ("prefetch")
 - can be smarter about the memcpy call instead of doing it row-by-row
   :: use util functions caffe_copy, and Blob->offset()
-  :: don't forget to update hdf5_daa_layer.cu accordingly
+  :: don't forget to update hdf5_data_layer.cu accordingly
 - add ability to shuffle filenames if flag is set
 */
 #include <fstream>  // NOLINT(readability/streams)
